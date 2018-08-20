@@ -19,7 +19,7 @@ description: "Learn how to prevent users from syncing specific file types using 
 
 # Block syncing of specific file types
 
-You can prevent users from syncing specific file types when they sync their OneDrive for Business files.
+You can prevent users from syncing specific file types when they sync their OneDrive for Business files. This will not prevent upload actions in the browser.
   
  **To block syncing of specific file types**
   
