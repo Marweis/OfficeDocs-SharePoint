@@ -114,7 +114,7 @@ For example, you create a new site column called "NewColors", and you want users
 
 Usually, you don't have to change the default search schema for the tenant unless you want to create a more advanced or customized search experience.
   
-You can change the search schema for the whole tenant or for a specific site collection only. The search schema for the site collection is based on the search schema for the tenant, so typically, you would make changes on the tenant level first, and then on the site collection level. Any changes you make on a site collection, only apply to that site collection.
+You can change the search schema for the whole tenant or for a specific site collection only. The search schema for the site collection is based on the search schema for the tenant, so typically, you would make changes on the tenant level first, and then on the site collection level. Any changes you make on a site collection, only apply to that site collection. When working with built-in managed properties (like refinablestring##) we recommend updating/mapping properties at the tenant-level. This is easier to manage and will be more performant in the long run. 
   
 ### Crawling and re-indexing
 <a name="__toc351360840"> </a>
